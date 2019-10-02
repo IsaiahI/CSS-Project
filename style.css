@@ -1,0 +1,31 @@
+#container {
+  width: 1200px;
+  margin: auto;
+  background: grey;
+}
+
+#nav1 {
+  width: 25%;
+  float: left;
+  background: blue;
+  text-align: center;
+}
+
+#header {
+  width: 50%;
+  float: left;
+  background: orange;
+  text-align: center;
+}
+#blackline{
+  width: 25%;
+  background: black;
+
+}
+
+#nav2 {
+  width: 25%;
+  float: left;
+  background: blue;
+  text-align: center;
+}
