@@ -19,11 +19,14 @@
   float: left;
   background: orange;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 #blackline {
   width: 100%;
   background: black;
+  clear:both;
+  margin-bottom: 5px;
 }
 
 #ad1 {
@@ -37,7 +40,14 @@
   width: 40%;
   background: magenta;
 }
-
+.footer{
+  position:absolute;
+  top: 1000px;
+  right: 850px;
+  width:200px;
+  height:100px;
+  border: 3px solid #73AD21;
+}
 #ad2 {
   float: right;
   width: 30%;
