@@ -12,7 +12,7 @@ body{
   width: 100%;
   height: 250px;
   float: center;
-  background: white;
+  background: grey;
   text-align: center;
 }
 .navbar{
@@ -40,7 +40,7 @@ body{
   color:white;
   padding:14px 16px;
   background-color:inherit;
-  font-family:inherit;
+  font-family:sans-serif;
   margin:0;
 }
 .navbar a:hover, .dropdown:hover .dropbutton{
@@ -63,6 +63,7 @@ body{
 .dropdowncontent a{
   float:none;
   color:black;
+  font-family: sans-serif;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -71,10 +72,12 @@ body{
 
 #sidebar {
   float: left;
+  font-family:sans-serif;
+  color:white;
   padding: 0;
   width: 21%;
-  height: 800px;
-  background: magenta;
+  height: 400px;
+  background: Black;
   padding: 2%;
 }
 
