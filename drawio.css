@@ -20,20 +20,21 @@ body {
 .pageTop h1 {
   text-align: center;
   padding-top: 50px;
-  color: red;
+  color: #A56BC9;
   font-size: 60.5;
 }
 
 .pageTop p {
   text-align: center;
   font-size: 40px;
-  color: purple;
+  color: white;
 }
 
-.navbar{
+.navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color:#6A6782;
   font-family: Arial;
+  padding-left: 10px;
 }
 
 .navbar a {
@@ -62,7 +63,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbutton {
-  background-color: #ff3333;
+  background-color: #6D4785;
 }
 
 .dropdowncontent {
@@ -94,29 +95,33 @@ body {
 #sidebar {
   float: left;
   font-family: sans-serif;
+  font-size: 125%;
+  text-align: center;
   color: white;
-  padding: 0;
-  width: 21%;
-  height: 400px;
-  background: Black;
-  padding: 2%;
+  width: 23%;
+  height: 600px;
+  background: #7A7695;
+  padding-top:10px;
 }
 
 #content {
   width: 46%;
   float: left;
   padding: 2%;
+  color: white;
+  font-family:monospace;
+  font-size:175%;
 }
 
 #adbox1 {
   float: left;
   width: 25%;
   height: 450px;
-
+  
   /*
   border: 2.5px solid black;
   padding: 50px;
   margin-top:50px;
-  margin-right: 50px;
+  margin-right: 0px;
   */
 }
