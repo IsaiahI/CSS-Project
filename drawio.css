@@ -1,79 +1,100 @@
-body{
+body {
   background: #333;
 }
+
 #container {
   margin: auto;
   width: 1200px;
   height: 100%;
-
 }
 
-#header {
-  width: 100%;
+.pageTop {
+  background-color: green;
+  background-image: url("images/pcmonitor.jpg");
+  width: 1000px;
   height: 250px;
-  float: center;
-  background: grey;
-  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
 }
+
+.pageTop h1 {
+  text-align: center;
+  padding-top: 50px;
+  color: red;
+  font-size: 60.5;
+}
+
+.pageTop p {
+  text-align: center;
+  font-size: 40px;
+  color: purple;
+}
+
 .navbar{
-  overflow:hidden;
-  background-color:#333;
+  overflow: hidden;
+  background-color: #333;
   font-family: Arial;
 }
-.navbar a{
-  float:left;
+
+.navbar a {
+  float: left;
   font-size: 16px;
-  color:white;
-  text-align:center;
-  padding:14px 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-.dropdown{
-  float:left;
-  overflow:hidden;
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
-.dropdown .dropbutton{
-  font-size:14px;
-  border:none;
+
+.dropdown .dropbutton {
+  font-size: 14px;
+  border: none;
   outline: none;
-  color:white;
-  padding:14px 16px;
-  background-color:inherit;
-  font-family:sans-serif;
-  margin:0;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: sans-serif;
+  margin: 0;
 }
-.navbar a:hover, .dropdown:hover .dropbutton{
-  background-color:#ff3333;
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+  background-color: #ff3333;
 }
-.dropdowncontent{
+
+.dropdowncontent {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-.dropdown:hover .dropdowncontent{
+
+.dropdown:hover .dropdowncontent {
   display: block;
 }
-.dropdowncontent a:hover{
+
+.dropdowncontent a:hover {
   background-color: #ddd;
 }
 
-.dropdowncontent a{
-  float:none;
-  color:black;
+.dropdowncontent a {
+  float: none;
+  color: black;
   font-family: sans-serif;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align:left;
+  text-align: left;
 }
 
 #sidebar {
   float: left;
-  font-family:sans-serif;
-  color:white;
+  font-family: sans-serif;
+  color: white;
   padding: 0;
   width: 21%;
   height: 400px;
@@ -81,8 +102,8 @@ body{
   padding: 2%;
 }
 
-#content{
-  width:46%;
+#content {
+  width: 46%;
   float: left;
   padding: 2%;
 }
@@ -91,6 +112,7 @@ body{
   float: left;
   width: 25%;
   height: 450px;
+
   /*
   border: 2.5px solid black;
   padding: 50px;
